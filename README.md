@@ -5,7 +5,7 @@
 1. `cp docker-compose.override.yaml.example docker-compose.override.yaml`
 2. `cp .env.example .env`
 3. `cp src/.env.example src/.env`
-4. `docker volume create anomaly_psql_db_volume`
+4. `docker volume create boysandgames_psql_db_volume`
 5. `docker-compose up -d`
 6. `docker-compose exec php composer i`
 7. `docker-compose exec php php artisan key:generate`
